@@ -7,6 +7,9 @@ using R5T.T0186.Extensions;
 
 namespace R5T.Z0043
 {
+    /// <summary>
+    /// Repository owner names.
+    /// </summary>
     [ValuesMarker]
     public partial interface IOwnerNames : IValuesMarker
     {
