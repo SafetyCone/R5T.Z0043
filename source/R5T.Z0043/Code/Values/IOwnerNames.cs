@@ -13,7 +13,20 @@ namespace R5T.Z0043
     [ValuesMarker]
     public partial interface IOwnerNames : IValuesMarker
     {
+        /// <summary>
+        /// "davidcoats"
+        /// </summary>
+        public const string DavidCoats_Constant = "davidcoats";
+
+        /// <inheritdoc cref="DavidCoats_Constant"/>
         public IOwnerName DavidCoats => "davidcoats".ToOwnerName();
+
+        /// <summary>
+        /// "SafetyCone"
+        /// </summary>
+        public const string SafetyCone_Constant = "SafetyCone";
+
+        /// <inheritdoc cref="SafetyCone_Constant"/>
         public IOwnerName SafetyCone => "SafetyCone".ToOwnerName();
     }
 }
